@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+    font-size: 20px;
+}
+input{
+    display: block;
+    background-color: green;
+}
+.next{
+    background-color: darkred;
+    border: 7px solid;
+    border-radius: 5px 6px 8px 10px;
+    float: right;
+    margin-right: 50px;
+}
+div{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 50px;
+}
+p{
+    border: 5px solid;
+    margin-left: 5px;
+    padding:5px 40px 3px 50px;
+    /*border-width: 40px;*/
+
+}
+.text{
+    width: 250px;
+    height: 23px;
+    border-radius: 10px 10px 10px 10px;
+}
+.main{
+    margin: 50px 500px 100px 500px;}
+h1{
+    color: darkblue;
+    /*background-color: slateblue;*/
+}
+legend{
+    color: red;
+}
+.btn1{
+    height: 30px;
+    border: 2px solid;
+    border-radius: 10px 10px 10px 10px;
+}
