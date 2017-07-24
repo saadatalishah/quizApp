@@ -17,7 +17,7 @@
         // for(var i=0;i<array.length;i++)
         // {
         // }
-         var win=window.location.href='index.html';
+         var win=window.location.href='questions.html';
          console.log(win);   
          }
 
