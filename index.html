@@ -2,57 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!--<title>Document</title>-->
+    <title></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center> <h1> QUIZZ APP </h1> 
-    <h1> JAVA SCRIPT TEST-1 </h1>
-    <div id="one">
-        <p class="radio">what is the capital of Pakistan</p>
-       <input type="radio" id="option" value="ISLAMABAD" onclick="naya()">ISLAMABAD</input>
-         <input type="radio" id="option" value="KARACHI"onclick="naya()">KARACHI</input>
-         <input type="radio" id="option" value="LAHORE"onclick="naya()">LAHORE</input>
-         <input type="radio" id="option" value="QUETTA"onclick="naya()">QUETTA</input>
+    <center>  <h1>QUIZZ APP</h1>
+    <h1>SIGHN UP PAGE</h1>
+</center>
+    <div class="main">
+              <form action="" class="signup">
+            <fieldset>
+            <legend>USERDATA </legend>
+            <label for="input1">NAME:
+            <input type="text" class="text" id="input1"placeholder='NAME'> <br></label>
+             <label for="input2">FATHER'S NAME:
+            <input type="text" class="text" id="input2"> <br> </label> 
+             <label for="input3">EMAIL: 
+            <input type="text" class="text" id="input3"> <br></label>
+             <label for="input4">INSTITUTION:
+            <input type="text" class="text" id="input4"> <br></label>
+            <input type="button" class="btn1" value="SIGHN UP" onclick="sign()">
+            </fieldset>
+        </form>
     </div>
-    <div id="two">
-    <p>Who was the first President of Pakistan</p>
-        <input type="radio" id="option" value="QUAID-E-AZAM"onclick="naya()">QUAID-E-AZAM
-         <input type="radio" id="option"value="ISKANDAR" onclick="naya()"> ISKANDAR MIRZA
-         <input type="radio" id="option" value="LIQUAT" onclick="naya()"> LIQUAT ALI KHAN
-         <input type="radio" id="option" value="MOHAMMED" onclick="naya()"> MOHAMMED ALI JOHAR
-
-    </div>
-     <div id="three">
-    <p>In Atomic country rating Pakistan is at ? </p>
-        <input type="radio" id="option" onclick="naya()" value="2">2
-         <input type="radio" id="option"onclick="naya()"value="3">3
-         <input type="radio" id="option"onclick="naya()" value="4"> 4       
-         <input type="radio" id="option" onclick="naya()" value="7">7
-    </div>
-     <div id="four">
-    <p>Bangladesh was seperated from Pakistan in? </p>
-        <input type="radio" id="option"onclick="naya()" value="1971">1971
-         <input type="radio" id="option"onclick="naya()"value="1977">1977
-         <input type="radio" id="option"onclick="naya()"value="1947">1947
-         <input type="radio" id="option"onclick="naya()"value="1951">1951 
-     </div>    
-     <div id="five">
-    <p>Pakistan National Anthem was written by? </p>
-        <input type="radio" id="option" value="QUAID-E-AZAM"onclick="naya()">QUAID-E-AZAM</input>
-         <input type="radio" id="option" value="Allama"onclick="naya()">Allama Iqbal</input>
-         <input type="radio" id="option" value="Hafiz"onclick="naya()">Hafiz jalindhri</input>       
-         <input type="radio" id="option"value="ISKANDAR"onclick="naya()">ISKANDAR MIRZA</input>
-    </div>
-     <div id="six">
-         <p>How do we declare variable in java script? </p>
-        <input type="radio" id="option" value='by using int'onclick="naya()">by using int</input>
-         <input type="radio" id="option" value='by using string'onclick="naya()">by using string</input>
-         <input type="radio" id="option" value="by using var"onclick="naya()">by using var</input>       
-         <input type="radio" id="option"value="by using variable"onclick="naya()">by using variable</input>
-     </div>
-    <input type="button" onclick="myfunction()" class="next" value="NEXT" >
-    <!--<input type="button" onclick="myfunction()" class="next" value="SAVE" id="save"  onclick="window.location.href='result.html'">-->
-    <script src="app.js"></script>
+<script src="signapp.js"></script>
 </body>
 </html>
